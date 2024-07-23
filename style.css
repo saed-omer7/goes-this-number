@@ -1,0 +1,44 @@
+body{
+    background-color: rgb(32, 29, 58);
+    overflow: hidden;
+}
+
+.container{
+    background-color: rgb(17, 25, 35);
+    padding: 100px 100px 100px 100px;
+    color: white;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:100px;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+    border-radius: 50px;
+    
+    position: relative;
+
+}
+
+span{
+    position: absolute;
+    top:210px;right: 250px;
+}
+
+.range{
+    width: 100%;
+    margin-top: 25px;
+}
+
+.dscore{
+    display: flex;
+    gap: 2rem;
+}
+img{
+    width: 100%;
+    position: absolute;
+    top:0;
+    left:0;
+    height: 900px;
+background-color: rgba(15, 94, 15, 0.862);
+visibility: hidden;
+    
+}
